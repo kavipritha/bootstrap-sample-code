@@ -1,0 +1,16 @@
+$primary-color: #4581f6;
+$secondary-color: #002265;
+$tertiary-color: #07253c;
+$text-color: #14279b;
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../static/font/Poppins-Regular.ttf') format('truetype');
+}
+
+body {
+  background: url(../static/images/Background.svg) no-repeat;
+  font-family: 'Poppins', monospace, sans-serif;
+  font-weight: 300;
+}
+
